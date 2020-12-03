@@ -1,0 +1,3 @@
+#!/bin/bash
+g++ publish_Group.cpp -o publish_Group -lpaho-mqtt3c
+g++ subscribe_Group.cpp util.cpp PWM.cpp -o subscribe_Group -lpaho-mqtt3c
